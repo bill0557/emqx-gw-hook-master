@@ -1,0 +1,7 @@
+{application,emqx_gw_hook,
+             [{description,"EMQ X Gwhook Plugin"},
+              {vsn,"git"},
+              {modules,[]},
+              {registered,[emqx_gw_hook_sup]},
+              {applications,[kernel,stdlib,jsx,clique]},
+              {mod,{emqx_gw_hook_app,[]}}]}.
